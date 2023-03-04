@@ -31,8 +31,6 @@ $.prototype.toggle = function () {
         } else {
             this[i].style.display = 'none';
         }
-
-        this[i].style.display = 'none';
     }
     return this;
 };

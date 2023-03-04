@@ -2,11 +2,7 @@ import $ from '../core';
 
 $.prototype.addClass = function (...classNames) {
     for (let i = 0; i < this.length; i++) {
-        if (this[i].classList.contains('')) {
-            continue;
-        } else {
-            this[i].classList.add(...classNames);
-        }
+        this[i].classList.add(...classNames);
     }
 
     return this;
